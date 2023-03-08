@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NoticeContentActivity">
+
+    <TextView
+        android:id="@+id/noticeTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/underbar_button"
+        android:text="TITLES"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/godo_m"/>
+
+    <TextView
+        android:id="@+id/noticeDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:gravity="top"
+        android:fontFamily="@font/godo_m"/>
+
+    <TextView
+        android:id="@+id/noticeContentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/edge"
+        android:padding="10dp"
+        android:gravity="top"
+        android:fontFamily="@font/godo_m"/>
+
+</LinearLayout>
